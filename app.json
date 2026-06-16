@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Pik-arte",
+    "slug": "pik-arte",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-bg.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0D0D0F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pikarte.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0D0D0F"
+      },
+      "package": "com.pikarte.app",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "VIBRATE"
+      ],
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
